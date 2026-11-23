@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header_section__box {
+    display: flex;
+    gap: 10px;
+}
+
+.header_section__box i {
+    font-size: 40px;
+    padding: 18px 0;
+}
+
+.header_ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header_li {
+    list-style: none;
+}
+
+.header_ul .header_li a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Header Section */
+
